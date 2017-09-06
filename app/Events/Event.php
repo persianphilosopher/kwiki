@@ -1,10 +1,8 @@
 <?php
 
-namespace Fungku\Kwiki\Events;
-
-use Illuminate\Queue\SerializesModels;
+namespace App\Events;
 
 abstract class Event
 {
-    use SerializesModels;
+    //
 }

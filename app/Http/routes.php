@@ -1,29 +1,16 @@
 <?php
 
-// ------------------------------------------------------------------------------
-// Wiki routes
-// ------------------------------------------------------------------------------
-$app->get('/', [
-    'uses' => 'WikiController@makePage',
-    'as'   => 'wiki.index'
-]);
+/*
+|--------------------------------------------------------------------------
+| Application Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register all of the routes for an application.
+| It's a breeze. Simply tell Laravel the URIs it should respond to
+| and give it the controller to call when that URI is requested.
+|
+*/
 
-$app->get('{one}', [
-    'uses' => 'WikiController@makePage',
-    'as'   => 'wiki.one'
-]);
-
-$app->get('{one}/{two}', [
-    'uses' => 'WikiController@makePage',
-    'as'   => 'wiki.two'
-]);
-
-$app->get('{one}/{two}/{three}', [
-    'uses' => 'WikiController@makePage',
-    'as'   => 'wiki.three'
-]);
-
-$app->get('{one}/{two}/{three}/{four}', [
-    'uses' => 'WikiController@makePage',
-    'as'   => 'wiki.four'
-]);
+Route::get('/', function () {
+    return view('welcome');
+});
