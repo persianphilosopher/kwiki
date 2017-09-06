@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace Fungku\Kwiki\Http\Controllers\Auth;
 
-use App\User;
+use Fungku\Kwiki\User;
 use Validator;
-use App\Http\Controllers\Controller;
+use Fungku\Kwiki\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 

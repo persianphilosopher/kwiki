@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Requests;
+namespace Fungku\Kwiki\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

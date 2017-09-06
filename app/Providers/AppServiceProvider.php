@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Fungku\Kwiki\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

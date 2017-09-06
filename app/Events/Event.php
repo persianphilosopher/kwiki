@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Events;
+namespace Fungku\Kwiki\Events;
 
 abstract class Event
 {
